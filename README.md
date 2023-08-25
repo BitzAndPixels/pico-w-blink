@@ -45,3 +45,4 @@ ls -la /dev | grep -i tty.usb
 ```sh
 minicom -b 115200 -o -D  /dev/tty.usbmodem143201
 ```
+9. You should see `Hello world!` message
